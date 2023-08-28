@@ -1,7 +1,7 @@
 import './index.css'
 
 const UserProfile = props => {
-  const {userDetails} = props
+  const {userDetails, key} = props
   const {imageUrl, name, role} = userDetails
   return (
     <li className="user-card-container">
